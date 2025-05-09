@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.colour {
+  background-color: rgb(172, 172, 172);
+}
+
+.header {
+  height: 50px;
+}
+
+.back {
+  height: (3 * 50) px;
+}
+.bar1 {
+  margin: 50px auto;
+  width: 50%;
+  height: 50px;
+}
+
+/* .back2 {
+  height: ;
+} */
+
+.square1 {
+  float: left;
+  width: 49%;
+  aspect-ratio: 1/1;
+}
+
+.square2 {
+  float: right;
+  width: 49%;
+  aspect-ratio: 1/1;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bar2 {
+  margin: 50px auto;
+  width: 55%;
+  height: 50px;
+}
+
+.squares {
+  margin: 0% 5%;
+  width: 90%;
+  aspect-ratio: 1/0.48;
+  /* background-color: black; */
+}
+
+.grid1,
+.grid2 {
+  height: 49%;
+  /* background-color: blue; */
+}
+
+.grid1 {
+  margin-bottom: 2%;
+}
+
+.squar {
+  width: 24.25%;
+  aspect-ratio: 1/1;
+  float: left;
+  margin-right: 1%;
+}
+
+.grid1 .squar:last-child,
+.grid2 .squar:last-child {
+  margin: 0;
+}
+
+.bar3 {
+  margin: 50px auto;
+  width: 70%;
+  height: 50px;
+}
+
+.comp {
+  width: 100%;
+  aspect-ratio: 1/0.65;
+  position: relative;
+}
+
+.three-cont {
+  position: absolute;
+  margin: 7%;
+  /* margin-top: 20%; */
+  width: 86%;
+  height: 79%;
+  /* background-color: #000000; */
+}
+
+.three {
+  background-color: rgb(255, 255, 255);
+  width: 32%;
+  margin-right: 2%;
+  aspect-ratio: 1/1.866;
+  float: left;
+}
+
+.three-cont .three:last-child {
+  margin-right: 0;
+}
+
+.bar-in {
+  margin: 10% 10%;
+  width: 80%;
+  aspect-ratio: 1/0.3;
+}
+
+.rect {
+  margin: 10% 10%;
+  margin-top: 0;
+  width: 80%;
+  aspect-ratio: 1/0.75;
+}
+
+.bar4 {
+  margin: 50px auto;
+  width: 30%;
+  height: 50px;
+}
+
+.bar5 {
+  margin: 10px auto;
+  width: 60%;
+  height: 50px;
+}
+
+.bar6 {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 60%;
+  height: 200px;
+}
+
+.bar7-8 {
+  margin: 10px auto;
+  width: 60%;
+  height: 50px;
+  /* background-color: hsl(0, 56%, 47%); */
+  margin-bottom: 70px;
+}
+
+.bar7 {
+  float: left;
+  width: 48%;
+  height: inherit;
+}
+.bar8 {
+  float: right;
+  width: 48%;
+  height: inherit;
+}
+
+.s1-2 {
+  width: 100%;
+  aspect-ratio: 1/0.3;
+}
+
+.s1,
+.s2 {
+  margin: 3.5% 0;
+  margin-left: 3.5%;
+  background-color: rgb(255, 255, 255);
+  width: 44.75%;
+  aspect-ratio: 1/0.52;
+  float: left;
+}
